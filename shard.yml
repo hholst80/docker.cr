@@ -3,6 +3,7 @@ version: 0.1.2
 
 authors:
   - Jerome Gravel-Niquet <jeromegn@gmail.com>
+  - Henrik Holst <hholst80@gmail.com>
 
 license: MIT
 
@@ -10,8 +11,7 @@ development_dependencies:
   webmock:
     github: manastech/webmock.cr
     branch: master
-  spec2:
-    github: waterlink/spec2.cr
-    branch: master
+  json_mapping:
+    github: crystal-lang/json_mapping.cr
 
-crystal: 0.27.0
+crystal: ">= 1.0.0"
