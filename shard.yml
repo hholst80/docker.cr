@@ -1,5 +1,5 @@
 name: docker
-version: 0.1.2
+version: 0.2.0
 
 authors:
   - Jerome Gravel-Niquet <jeromegn@gmail.com>
@@ -7,11 +7,13 @@ authors:
 
 license: MIT
 
+dependencies:
+  json_mapping:
+    github: crystal-lang/json_mapping.cr
+
 development_dependencies:
   webmock:
     github: manastech/webmock.cr
     branch: master
-  json_mapping:
-    github: crystal-lang/json_mapping.cr
 
 crystal: ">= 1.0.0"
